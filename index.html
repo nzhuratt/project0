@@ -1,0 +1,23 @@
+<!DOCTYPE html> <html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="todo-app">
+          <h2>To-Do List <img src="img/icon1.png"></h2>
+          <div class="row">
+            <input type="text" id="input-box" placeholder="Add new task">
+            <button onclick="addTask()">GO!</button>
+          </div>
+          <ul id="list-container"></ul>
+          <div class="task-count">
+            <p>Tasks(<span id="total-task-count">0</span>) Unchecked tasks(<span id="unchecked-task-count">0</span>)</p>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+  </html>
